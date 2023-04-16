@@ -7,8 +7,8 @@ int Num (string arg)
     return int.Parse(System.Console.ReadLine());
 }
 
-int n = Num("n столбцов");
-int m = Num("m строк");
+int n = Num("количество столбцов");
+int m = Num("количество строк");
 
 int[,] matrix = new int[m,n];
 
